@@ -34,7 +34,7 @@ void main() {
       await driver.tap(buttonFinder);
 
       // Then, verify the counter text has been incremented by 1
-      expect(await driver.getText(counterTextFinder), "1");
+      expect(await driver.getText(counterTextFinder), "2");
       // expect(1, 2);
     });
   });
